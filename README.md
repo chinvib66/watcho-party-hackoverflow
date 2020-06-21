@@ -13,17 +13,14 @@ Clone the repository to a folder using command prompt/bash shell
 
 The following commands will install dependencies and run the apps in development mode
 
-### For Windows users
-
 ```
-> .\install-and-run.cmd
+npm run install-all
 ```
 
-### For Linux users
+More commands can be seen in watcho-party-dishathon/package.json
 
-```
-> .\install-and-run.sh
-```
+1. The web app launches on http://localhost:3000
+2. The backend servers launch on ports 4000 and 4001
 
 ### Using Docker
 
@@ -33,8 +30,8 @@ If you have docker installed, make sure docker service is running
 > docker-compose up -d --build
 ```
 
-1. The web app launches on http://localhost:3000
-2. The backend servers launch on ports 4000 and 40001
+1. The web app launches on http://localhost:3001
+2. The backend servers launch on ports 4001 and 5001
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

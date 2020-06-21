@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"install-and-run-client": "cd client && npm i && npm start",
+		"install-app": "cd mobile-app && npm i",
+		"install-and-run-sync-backend": "cd sync-backend && npm i && npm start",
+		"install-and-run-chat-backend": "cd chat-backend && npm i && npm start",
+		"install-all": "npm run install-and-run-client && install-and-run-sync-backend && install-and-run-chat-backend"
+	}
+}
