@@ -20,7 +20,7 @@ npm run install-all
 More commands can be seen in watcho-party-dishathon/package.json
 
 1. The web app launches on http://localhost:3000
-2. The backend servers launch on ports 4000 and 4001
+2. The backend servers launch on ports 4000
 
 ### Using Docker
 
@@ -31,7 +31,7 @@ If you have docker installed, make sure docker service is running
 ```
 
 1. The web app launches on http://localhost:3001
-2. The backend servers launch on ports 4001 and 5001
+2. Sync Backend server on http://localhost:4001
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
